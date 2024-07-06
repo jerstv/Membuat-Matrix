@@ -22,7 +22,7 @@ public class Calculation {
         this.operand2 = operand2;
         this.operation = operation;
 
-        operationMap.put('+', (Operation) new Addition());
+        operationMap.put('+', new Addition());
         operationMap.put('-', new Subtraction());
         operationMap.put('/', new devided());
         operationMap.put('*', new Multiple());
